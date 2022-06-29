@@ -6,7 +6,7 @@
 
 .wrapp {
   width: 100%;
-  min-height: 870px;
+  min-height: 790px;
   padding: 0 100px;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,7 @@
 }
 .wrapp .header__wrapp {
   width: 100%;
+  height: 13vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,6 +55,11 @@
   color: #363E61;
   font-size: calc(6px + 0.7vw);
 }
+.wrapp .header__wrapp .header__nav ul li a:hover {
+  color: #328BE0;
+  transition: 0.2s;
+  cursor: pointer;
+}
 .wrapp .header__wrapp .header__acc {
   display: flex;
   align-items: center;
@@ -87,7 +93,7 @@
   background-color: white;
 }
 .wrapp .main .main__left {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -130,6 +136,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  animation: fadeInLeft;
+  animation-duration: 6s;
 }
 .wrapp .main .main__left .top__main_left .circle__main_left .p1__circle__main_left {
   font-weight: 700;
@@ -160,6 +168,13 @@
   line-height: 28px;
   margin-top: 35px;
 }
+.wrapp .main .main__left .btn__main_left:hover {
+  background-color: #fff;
+  color: #61CDE9;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 1px solid #61CDE9;
+}
 .wrapp .main .main__left .cards__main_left {
   display: flex;
   flex-direction: row;
@@ -168,7 +183,7 @@
   margin-top: 180px;
 }
 .wrapp .main .main__left .cards__main_left .card1 {
-  width: 230px;
+  width: 215px;
   height: 120px;
   background-color: #8EDD82;
   box-shadow: 0px 10px 30px #D3EECF;
@@ -191,6 +206,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: pulse;
+  animation-duration: 100s;
 }
 .wrapp .main .main__left .cards__main_left .card1 .circles__card1 .circle2__card1 {
   width: 60px;
@@ -204,6 +221,12 @@
 .wrapp .main .main__left .cards__main_left .card1 .circles__card1 .circle2__card1 img {
   width: 180px;
   margin-left: 55px;
+  transition: 0.3s;
+}
+.wrapp .main .main__left .cards__main_left .card1 .circles__card1 .circle2__card1 img:hover {
+  transform: rotate(30deg);
+  transition: 0.3s;
+  cursor: pointer;
 }
 .wrapp .main .main__left .cards__main_left .card1 .circles__card1 .p__card1_left {
   font-weight: 700;
@@ -213,7 +236,7 @@
   color: #fff;
 }
 .wrapp .main .main__left .cards__main_left .card2 {
-  width: 230px;
+  width: 215px;
   height: 120px;
   background: #FFB63E;
   box-shadow: 0px 10px 30px #FFDEA8;
@@ -236,6 +259,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: pulse;
+  animation-duration: 100s;
 }
 .wrapp .main .main__left .cards__main_left .card2 .circles__card2 .circle2__card2 {
   width: 60px;
@@ -249,6 +274,12 @@
 .wrapp .main .main__left .cards__main_left .card2 .circles__card2 .circle2__card2 img {
   width: 180px;
   margin-left: 55px;
+  transition: 0.3s;
+}
+.wrapp .main .main__left .cards__main_left .card2 .circles__card2 .circle2__card2 img:hover {
+  transform: rotate(30deg);
+  transition: 0.3s;
+  cursor: pointer;
 }
 .wrapp .main .main__left .cards__main_left .card2 .circles__card2 .p__card2_left {
   font-weight: 700;
@@ -258,7 +289,7 @@
   color: #fff;
 }
 .wrapp .main .main__left .cards__main_left .card3 {
-  width: 230px;
+  width: 215px;
   height: 120px;
   background: #328BE0;
   box-shadow: 0px 10px 30px #BFE0FF;
@@ -281,6 +312,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: pulse;
+  animation-duration: 100s;
 }
 .wrapp .main .main__left .cards__main_left .card3 .circles__card3 .circle2__card3 {
   width: 60px;
@@ -294,6 +327,12 @@
 .wrapp .main .main__left .cards__main_left .card3 .circles__card3 .circle2__card3 img {
   width: 180px;
   margin-left: 55px;
+  transition: 0.3s;
+}
+.wrapp .main .main__left .cards__main_left .card3 .circles__card3 .circle2__card3 img:hover {
+  transform: rotate(30deg);
+  transition: 0.3s;
+  cursor: pointer;
 }
 .wrapp .main .main__left .cards__main_left .card3 .circles__card3 .p__card3_left {
   font-weight: 700;
@@ -303,11 +342,12 @@
   color: #fff;
 }
 .wrapp .main .main__right {
-  width: 30%;
+  width: 35%;
   display: flex;
   min-height: 80px;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
 }
 .wrapp .main .main__right .shoe__main {
   display: flex;
@@ -316,17 +356,19 @@
   display: flex;
 }
 .wrapp .main .main__right .shoe__main .shoe__circles .circle1__shoe {
-  width: 440px;
-  height: 440px;
+  width: 410px;
+  height: 410px;
   border-radius: 50%;
   background-color: #61CDE9;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: swing;
+  animation-duration: 100s;
 }
 .wrapp .main .main__right .shoe__main .shoe__circles .circle2__shoe {
-  width: 340px;
-  height: 340px;
+  width: 310px;
+  height: 310px;
   background-color: #76DDF8;
   border-radius: 50%;
   display: flex;
@@ -334,8 +376,8 @@
   align-items: center;
 }
 .wrapp .main .main__right .shoe__main .shoe__circles .circle3__shoe {
-  width: 240px;
-  height: 240px;
+  width: 210px;
+  height: 210px;
   background-color: #8FE8FF;
   border-radius: 50%;
   display: flex;
@@ -352,6 +394,37 @@
 .wrapp .main .main__right .shoe__main .shoe__circles .circle3__shoe img:hover {
   transform: rotate(-30deg);
   transition: 1s;
+}
+.wrapp .main .main__right .btns__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapp .main .main__right .btns__right .btn1__btns {
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 25px rgba(175, 199, 205, 0.31);
+  border-radius: 10px;
+  border: none;
+}
+.wrapp .main .main__right .btns__right .btn1__btns img {
+  width: 7.99px;
+  height: 13.99px;
+}
+.wrapp .main .main__right .btns__right .btn2__btns {
+  width: 50px;
+  height: 50px;
+  background: #61CDE9;
+  box-shadow: 0px 8px 25px rgba(97, 205, 233, 0.46);
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+}
+.wrapp .main .main__right .btns__right .btn2__btns img {
+  width: 7.99px;
+  height: 13.99px;
 }
 
 /*# sourceMappingURL=style.css.map */
