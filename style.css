@@ -38,6 +38,8 @@
   background-color: #363E61;
   border-radius: 50%;
   margin: 5px;
+  animation: fadeInLeft;
+  animation-duration: 1s;
 }
 .wrapp .header__wrapp .header__nav ul {
   display: flex;
@@ -392,6 +394,135 @@
   transition: 1s;
 }
 .wrapp .main .main__right .shoe__main .shoe__circles .circle3__shoe img:hover {
+  transform: rotate(-30deg);
+  transition: 1s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__green {
+  display: none;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__green .circle1__shoe__green {
+  width: 410px;
+  height: 410px;
+  border-radius: 50%;
+  background-color: #8EDD82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: swing;
+  animation-duration: 100s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__green .circle2__shoe__green {
+  width: 310px;
+  height: 310px;
+  background-color: #9DEA91;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__green .circle3__shoe__green {
+  width: 210px;
+  height: 210px;
+  background-color: #B6F2AD;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__green .circle3__shoe__green img {
+  width: 800px;
+  height: 470px;
+  z-index: 4;
+  transform: rotate(30deg);
+  transition: 1s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__green .circle3__shoe__green img:hover {
+  transform: rotate(-30deg);
+  transition: 1s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__orange {
+  display: none;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__orange .circle1__shoe__orange {
+  width: 410px;
+  height: 410px;
+  border-radius: 50%;
+  background-color: #FFB63E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: swing;
+  animation-duration: 100s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__orange .circle2__shoe__orange {
+  width: 310px;
+  height: 310px;
+  background-color: #FFC667;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__orange .circle3__shoe__orange {
+  width: 210px;
+  height: 210px;
+  background-color: #FFD082;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__orange .circle3__shoe__orange img {
+  width: 800px;
+  height: 470px;
+  z-index: 4;
+  transform: rotate(30deg);
+  transition: 1s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__orange .circle3__shoe__orange img:hover {
+  transform: rotate(-30deg);
+  transition: 1s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__darkblue {
+  display: none;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__darkblue .circle1__shoe__darkblue {
+  width: 410px;
+  height: 410px;
+  border-radius: 50%;
+  background-color: #328BE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: swing;
+  animation-duration: 100s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__darkblue .circle2__shoe__darkblue {
+  width: 310px;
+  height: 310px;
+  background-color: #3B98F1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__darkblue .circle3__shoe__darkblue {
+  width: 210px;
+  height: 210px;
+  background-color: #4FA9FF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__darkblue .circle3__shoe__darkblue img {
+  width: 800px;
+  height: 470px;
+  z-index: 4;
+  transform: rotate(30deg);
+  transition: 1s;
+}
+.wrapp .main .main__right .shoe__main .shoe__circles__darkblue .circle3__shoe__darkblue img:hover {
   transform: rotate(-30deg);
   transition: 1s;
 }

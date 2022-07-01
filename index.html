@@ -21,19 +21,20 @@
             <div class="header__nav">
                 <div class="btn__nav">
                     <div class="row__btn_nav">
-                        <div class="dot__row"></div>
-                        <div class="dot__row"></div>
-                        <div class="dot__row"></div>
+                        <div class="dot__row" id="dotRow1"></div>
+                        <div class="dot__row" id="dotRow2"></div>
+                        <div class="dot__row" id="dotRow3"></div>
+                       
                     </div>
                     <div class="row__btn_nav">
-                        <div class="dot__row"></div>
-                        <div class="dot__row"></div>
-                        <div class="dot__row"></div>
+                        <div class="dot__row" id="dotRow4"></div>
+                        <div class="dot__row" id="dotRow5"></div>
+                        <div class="dot__row" id="dotRow6"></div>
                     </div>
                     <div class="row__btn_nav">
-                        <div class="dot__row"></div>
-                        <div class="dot__row"></div>
-                        <div class="dot__row"></div>
+                        <div class="dot__row" id="dotRow7"></div>
+                        <div class="dot__row" id="dotRow8"></div>
+                        <div class="dot__row" id="dotRow9"></div>
                     </div>
                 </div>
                 <ul>
@@ -76,31 +77,31 @@
                 </div>
                 <button class="btn__main_left">Add To Cart</button>
                 <div class="cards__main_left">
-                    <div class="card1">
+                    <div class="card1" id="card1">
                         <div class="circles__card1">
                             <div class="circle1__card1">
                                 <div class="circle2__card1">
-                                    <img src="img/shoes 2.png" alt="shoe">
+                                    <img src="img/shoes 2.svg" alt="shoe">
                                 </div>
                             </div>
                         </div>
                         <p class="p__card1_left">Shop Now</p>
                     </div>
-                    <div class="card2">
+                    <div class="card2" id="card2">
                         <div class="circles__card2">
                             <div class="circle1__card2">
                                 <div class="circle2__card2">
-                                    <img src="img/shoe 3.png" alt="shoe">
+                                    <img src="img/shoe 3.svg" alt="shoe">
                                 </div>
                             </div>
                         </div>
                         <p class="p__card2_left">Shop Now</p>
                     </div>
-                    <div class="card3">
+                    <div class="card3" id="card3">
                         <div class="circles__card3">
                             <div class="circle1__card3">
                                 <div class="circle2__card3">
-                                    <img src="img/shoe 4.png" alt="shoe">
+                                    <img src="img/shoe 4.svg" alt="shoe">
                                 </div>
                             </div>
                         </div>
@@ -110,7 +111,7 @@
             </div>
             <div class="main__right">
                 <div class="shoe__main">
-                    <div class="shoe__circles">
+                    <div class="shoe__circles" id="shoeBasic">
                         <div class="circle1__shoe">
                             <div class="circle2__shoe">
                                 <div class="circle3__shoe">
@@ -119,12 +120,39 @@
                             </div>
                         </div>
                     </div>
+                    <div class="shoe__circles__green" id="shoeGreen">
+                        <div class="circle1__shoe__green">
+                            <div class="circle2__shoe__green">
+                                <div class="circle3__shoe__green">
+                                    <img src="img/shoes 2.svg" alt="shoe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoe__circles__orange" id="shoeOrange">
+                        <div class="circle1__shoe__orange">
+                            <div class="circle2__shoe__orange">
+                                <div class="circle3__shoe__orange">
+                                    <img src="img/shoe 3.svg" alt="shoe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoe__circles__darkblue" id="shoeDarkblue">
+                        <div class="circle1__shoe__darkblue">
+                            <div class="circle2__shoe__darkblue">
+                                <div class="circle3__shoe__darkblue">
+                                    <img src="img/shoe 4.svg" alt="shoe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="btns__right">
-                    <button class="btn1__btns">
+                    <button class="btn1__btns" id="btnLeft">
                         <img src="img/left.png" alt="left arrow">
                     </button>
-                    <button class="btn2__btns">
+                    <button class="btn2__btns" id="btnRight">
                         <img src="img/right.png" alt="right arrow">
                     </button>
                 </div>
@@ -134,7 +162,7 @@
 
 
     </div>
-
+<script src="main.js"></script>
 
 </body>
 </html>
