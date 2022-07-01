@@ -6,5 +6,6 @@ Simple task created to practise skill and knowledge of SCSS
 * CSS3
 * SASS
 * SCSS
+* JavaScript
 * Node.JS
 * Animate.CSS
